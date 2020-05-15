@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: absolute;
+    z-index: 999;
+}
+.banner img{
+    position: relative;
+    width: 70%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
